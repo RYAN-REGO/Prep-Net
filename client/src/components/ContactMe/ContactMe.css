@@ -1,0 +1,167 @@
+.contactMe_mainContainer{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contactMe_header{
+    height: 70px;
+    font-size: 32px;
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: linear-gradient(90deg, rgb(132, 0, 255),#66B2FF, #EB00FF );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact_container{
+    height: 370px;
+    width: 48%;
+    border: 1px solid #00C2FF;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact_inputs{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.contactMe_linkedIn{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+.LinkedInProf{
+    background-color: #161B22;
+    border: 1px solid rgb(85, 85, 85);
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    top: -15px;
+    width: 66%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+    color: white;
+    letter-spacing: 1px;
+    height: 35px;
+}
+.link{
+    height: 17px;
+}
+.LinkedInProf:hover{
+    background-color: #242b35;
+}
+.email{
+    height: 30px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.emailInput{
+    height: 35px;
+    width: 65%;
+    border: none;
+    border-radius: 5px; 
+    background-color: #0D1117;
+    border: 1px solid cyan;
+    color: violet;
+    letter-spacing: 1px;
+    padding-left: 10px;
+}
+.feedback{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.feedBackInput{
+    height: 80px;
+    width: 65%;
+    border: none;
+    border-radius: 5px;
+    background-color: #0D1117;
+    border: 1px solid cyan;
+    color: rgb(0, 140, 255);
+    resize: none;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.contact_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-evenly;
+}
+.sendButton
+{
+    background-color: #0D1117;
+    border: 1px solid cyan;
+    height: 35px;
+    width: 215px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+.sendButton:hover{
+    background-color: #141a22;
+    color: cyan;
+}
+@media (max-width : 550px)
+{
+    .contactMe_header{
+        height: 132px;
+        padding-left: 30px;
+    }
+    .contact_container{
+        width: 96%;
+        height: 430px;
+    }
+    .emailInput{
+        width: 78%;
+    }
+    .feedBackInput{
+        width: 78%;
+    }
+    .sendButton{
+        width: 80%;
+        height: 40px;
+    }
+    .LinkedInProf{
+        width: 80%;
+    }
+    .contact_buttons
+    {
+        width: 100%;
+        flex-direction: column;
+        height: 100px;
+        gap: 15px;
+    }
+}

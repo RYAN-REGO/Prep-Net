@@ -1,0 +1,16 @@
+.update_text{
+    font-size: 30px;
+    background : linear-gradient(90deg, #8FFF00, #EB00FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+    font-weight: 550;
+    position: relative;
+    letter-spacing: 1px;
+}
+@media (max-width : 550px)
+{
+    .update_text{
+        text-align: center;
+    }
+}

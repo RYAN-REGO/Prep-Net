@@ -1,0 +1,225 @@
+.intExp_Grandcontainer {
+  min-height: 150vh;
+  width: 100%;
+}
+.intExp_headSection {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.intExp_stats {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: 300;
+  /* font-style: italic; */
+  font-family: "Italianno", cursive;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  left: 93px;
+}
+.intExp_mainContent {
+  min-height: 140vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.intExp_grid {
+  width: 87%;
+  height: 900px;
+  border: 1px solid grey;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+.intExp_grid::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+.intExp_grid::-webkit-scrollbar-track {
+  background: #131313;
+}
+
+/* Handle */
+.intExp_grid::-webkit-scrollbar-thumb {
+  background: #07090c;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.intExp_grid::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.authorName {
+  background: linear-gradient(90deg, #82ff00, #eb00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.intExp_goBack {
+  height: 40px;
+  width: 60%;
+  border-radius: 10px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 1px;
+  cursor: pointer;
+  background: linear-gradient(90deg, #4ca5ff, #b573f8);
+  background: rgba(17, 24, 39, 0.95);
+  text-decoration: none;
+}
+.intExp_goBack:hover {
+  color: #4ca5ff;
+}
+
+.intExp_recommended {
+  width: 100%;
+    height: 251px;
+    background-color: #0c0f14;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.intExp_recomHead {
+  height: 30px;
+  width: 90%;
+  font-size: 18px;
+  font-family: "Gabarito", sans-serif;
+  color: rgb(189, 189, 189);
+  letter-spacing: 0.07em;
+  position: relative;
+  left: 90px;
+  top: 19px;
+}
+.intExp_recomGrid {
+  width: 1200px;
+  height: 75%;
+
+  margin-left: 90px;
+  overflow-x: auto; 
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+ .intExp_recomGrid::-webkit-scrollbar {
+  width: 3px;
+  height: 10px;
+}
+
+
+.intExp_recomGrid::-webkit-scrollbar-track {
+  background: #131313;
+}
+
+
+.intExp_recomGrid::-webkit-scrollbar-thumb {
+  background: #07090c;
+  border-radius: 5px;
+}
+
+
+.intExp_recomGrid::-webkit-scrollbar-thumb:hover {
+  background: #2e2e2e;
+}
+
+@media (max-width: 550px) {
+  .intExp_headSection {
+    margin-top: 20px;
+  }
+  .intExp_stats {
+    left: 10px;
+    font-size: 16px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 15px;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .authorName {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    color: #00c2ff;
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+    top: -10px;
+    font-size: 19px;
+  }
+  .intExp_mainContent {
+    min-height: 133vh;
+  }
+  .intExp_grid {
+    width: 97%;
+    height: 290px;
+  }
+  .intExp_grid::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  /* Track */
+  .intExp_grid::-webkit-scrollbar-track {
+    background: #131313;
+  }
+
+  /* Handle */
+  .intExp_grid::-webkit-scrollbar-thumb {
+    background: #0f1319;
+    border-radius: 5px;
+  }
+
+  /* Handle on hover */
+  .intExp_grid::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .intExp_headSection {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .intExp_grid::-webkit-scrollbar {
+    display: none;
+  }
+  .intExp_recommended
+  {
+    height: 310px;
+  }
+  .intExp_recomHead
+  {
+    left: 5%;
+    font-size: 16px;
+    height: 56px;
+    margin-bottom: 10px;
+  }
+  .intExp_recomGrid
+  {
+    margin-left: 16px;
+    margin-top: -20px;
+    width: 93%;
+    height: 60%;
+  }
+  .invoke_related{
+    margin-top: 0px;
+    font-family: "Gabarito", sans-serif;
+  }
+}

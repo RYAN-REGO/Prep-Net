@@ -1,0 +1,696 @@
+.createPost_container {
+  min-height: 440vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.createPost_headSection {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.createPost_vote {
+  width: 91%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.voteOfThanks {
+  font-size: 36px;
+  background: linear-gradient(90deg, #00ff0a, #00f0ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 1px;
+  position: relative;
+  left: -283px;
+}
+.createPost_template {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.createPost_template_cont {
+  height: 82vh;
+  width: 85%;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid #00c2ff;
+}
+.createPost_templatehead {
+  height: 40px;
+  width: 100%;
+  color: rgb(221, 221, 221);
+  font-size: 16px;
+  display: flex;
+  align-self: start;
+  align-items: center;
+  letter-spacing: 1px;
+  font-style: italic;
+  position: relative;
+  top: 9px;
+  left: 40px;
+  font-weight: 400;
+}
+.createPost_template_main {
+  height: 89%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.createPost_template_submain {
+  height: 89%;
+  width: 90%;
+  border-radius: 15px;
+  background-color: #161b22;
+  box-shadow: 5px 5px 5px rgb(10, 8, 8);
+}
+.createPost_template_intro {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.createPost_template_intro1 {
+  color: white;
+  letter-spacing: 1px;
+}
+.createPost_template_introDesc {
+  color: grey;
+  letter-spacing: 1px;
+  font-style: italic;
+  height: 100%;
+  display: flex;
+  position: relative;
+  top: 25px;
+  width: 72%;
+}
+.createPost_template_rounds {
+  height: 169px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.createPost_template_roundsMen {
+  height: 90%;
+  width: 85%;
+  color: grey;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+.roundText {
+  color: white;
+}
+.createPost_template_rndExp {
+  height: 89px;
+  width: 100%;
+}
+.createPost_template_heading {
+  height: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  letter-spacing: 1px;
+  width: 41%;
+}
+.createPost_template_tip {
+  height: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.createPost_template_tiphead {
+  width: 7%;
+  color: white;
+  letter-spacing: 1px;
+}
+.createPost_template_tipContent {
+  width: 79%;
+  color: grey;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+.createPost_template_imp {
+  height: 99px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.createPost_template_imphead {
+  width: 86%;
+  color: white;
+  letter-spacing: 1px;
+}
+.createPost_template_start {
+  font-size: 32px;
+  color: white;
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-weight: 500;
+  gap: 10px;
+}
+.createPost_text {
+  background: linear-gradient(90deg, #ff4d00, #a500f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.createPost_fillDetails {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.createPost_fillBatch {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.createPost_batchHead {
+  color: rgb(200, 200, 200);
+  font-size: 18px;
+  width: 37%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+.createPost_batchSelect {
+  height: 100%;
+  width: 34%;
+  display: flex;
+  align-items: center;
+}
+.createPost_fillDept {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.createPost_deptHead {
+  color: rgb(200, 200, 200);
+  font-size: 18px;
+  width: 39%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+.createPost_deptSelect {
+  height: 100%;
+  width: 34%;
+  display: flex;
+  align-items: center;
+}
+.batchSelect{
+  height: 37px;
+  width: 294px;
+  border-radius: 7px;
+  margin-left: 79px;
+  background-color: transparent;
+  border: 1px solid cyan;
+  color: rgb(209, 209, 209);
+  letter-spacing: 1px;
+  padding-left: 5px;
+  font-style: italic;
+}
+.deptSelect{
+  height: 37px;
+  width: 294px;
+  border-radius: 7px;
+  margin-left: 79px;
+  background-color: transparent;
+  border: 1px solid cyan;
+  color: rgb(209, 209, 209);
+  letter-spacing: 1px;
+  padding-left: 5px;
+  font-style: italic;
+}
+.optionSelect{
+  background-color: #161b22;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  height: 35px;
+  letter-spacing: 1px;
+}
+.createPost_fillCompany {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.createPost_companyHead {
+  color: rgb(200, 200, 200);
+  font-size: 18px;
+  width: 39%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+.createPost_companyFill {
+  height: 100%;
+  width: 34%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 79px;
+}
+.company_name {
+  height: 30px;
+  width: 280px;
+  background: transparent;
+  border: 1px solid cyan;
+  border-radius: 8px;
+  color: rgb(217, 217, 217);
+  letter-spacing: 1px;
+  padding-left: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  overflow: auto;
+}
+.createPost_fillIntro {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.createPost_introIn {
+  height: 100px;
+  width: 54%;
+  background: transparent;
+  border: 1px solid cyan;
+  border-radius: 10px;
+  color: rgb(202, 202, 202);
+  font-size: 15px;
+  padding-left: 10px;
+  padding-top: 10px;
+  letter-spacing: 1px;
+  resize: none;
+  padding-right: 26px;
+}
+.createPost_fillRndName {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.createPost_rndName {
+  height: 150px;
+  width: 54%;
+  background: transparent;
+  border: 1px solid cyan;
+  border-radius: 10px;
+  color: rgb(202, 202, 202);
+  font-size: 15px;
+  padding-left: 10px;
+  padding-top: 10px;
+  letter-spacing: 1px;
+  resize: none;
+  line-height: 26px;
+  padding-right: 26px;
+}
+.createPost_rndName::-webkit-scrollbar {
+  width: 7px;
+}
+/* Track */
+.createPost_rndName::-webkit-scrollbar-track {
+  background: #0b0b0b;
+}
+/* Handle */
+.createPost_rndName::-webkit-scrollbar-thumb {
+  background: #626262;
+  border-radius: 5px;
+}
+/* Handle on hover */
+.createPost_rndName::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.createPost_fillrndDesc {
+  height: 452px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.createPost_rndDesc {
+  height: 400px;
+  width: 54%;
+  background: transparent;
+  border: 1px solid cyan;
+  border-radius: 10px;
+  color: rgb(202, 202, 202);
+  font-size: 15px;
+  padding-left: 10px;
+  padding-top: 10px;
+  letter-spacing: 1px;
+  resize: none;
+  line-height: 26px;
+  padding-right: 26px;
+}
+.createPost_rndDesc::-webkit-scrollbar {
+  width: 7px;
+}
+/* Track */
+.createPost_rndDesc::-webkit-scrollbar-track {
+  background: #0b0b0b;
+}
+/* Handle */
+.createPost_rndDesc::-webkit-scrollbar-thumb {
+  background: #626262;
+  border-radius: 5px;
+}
+/* Handle on hover */
+.createPost_rndDesc::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.createPost_fillTips {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.createPost_tipsDesc {
+  height: 240px;
+  width: 54%;
+  background: transparent;
+  border: 1px solid cyan;
+  border-radius: 10px;
+  color: rgb(202, 202, 202);
+  font-size: 15px;
+  padding-left: 10px;
+  padding-top: 10px;
+  letter-spacing: 1px;
+  resize: none;
+  line-height: 26px;
+  padding-right: 26px;
+}
+.createPost_tipsDesc::-webkit-scrollbar {
+  width: 7px;
+}
+/* Track */
+.createPost_tipsDesc::-webkit-scrollbar-track {
+  background: #0b0b0b;
+}
+/* Handle */
+.createPost_tipsDesc::-webkit-scrollbar-thumb {
+  background: #626262;
+  border-radius: 5px;
+}
+/* Handle on hover */
+.createPost_tipsDesc::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.createPost_impTopics {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.createPost_impDesc {
+  height: 200px;
+  width: 54%;
+  background: transparent;
+  border: 1px solid cyan;
+  border-radius: 10px;
+  color: rgb(202, 202, 202);
+  /* font-style: italic; */
+  font-size: 15px;
+  padding-left: 10px;
+  padding-top: 10px;
+  letter-spacing: 1px;
+  resize: none;
+  line-height: 26px;
+  padding-right: 26px;
+}
+.createPost_linkedIn
+{
+  height: 130px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.createPost_linkedInLink{
+  height: 40px;
+  width: 54%;
+  background: transparent;
+  border: 1px solid cyan;
+  border-radius: 10px;
+  color: rgb(202, 202, 202);
+  /* font-style: italic; */
+  font-size: 15px;
+  padding-left: 10px;
+  padding-top: 10px;
+  letter-spacing: 1px;
+  resize: none;
+  line-height: 26px;
+  padding-right: 26px;
+}
+.createPost_Submit
+{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.createPost_SButton
+{
+  width: 30%;
+  height: 50%;
+  cursor: pointer;
+  background-color: #00c2ff;
+  color: black;
+  letter-spacing: 1px;
+  font-size: 18px;
+  border: none;
+  border-radius: 15px;
+}
+.createPost_SButton:hover{
+  background-color: #07a3d3;
+}
+.createPost_error{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.createPost_error_cont{
+  height: 70%;
+  min-width: 55%;
+  max-width: 90%;
+  background-color: #161b22;
+  color: rgb(182, 0, 0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+  padding-left: 20px;
+  font-style: italic;
+  border-radius: 10px;
+}
+.para{
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+@media (max-width: 550px) {
+  .createPost_template_main {
+    height: 94%;
+  }
+  .createPost_template_cont {
+    width: 96%;
+    height: 90vh;
+  }
+  .viewList_shareExp {
+    display: none;
+  }
+  .createPost_deptHead {
+    width: 50%;
+    font-size: 15px;
+  }
+  .createPost_companyHead {
+    color: rgb(200, 200, 200);
+    font-size: 18px;
+    width: 55%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-end;
+    letter-spacing: 2px;
+    font-style: italic;
+  }
+  .createPost_companyFill {
+    height: 100%;
+    width: 39%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0px;
+  }
+  .createPost_introIn {
+    width: 85%;
+  }
+  .createPost_rndName {
+    width: 85%;
+  }
+  .createPost_rndDesc {
+    width: 85%;
+  }
+  .createPost_tipsDesc {
+    width: 85%;
+  }
+  .createPost_impDesc {
+    width: 85%;
+  }
+  .voteOfThanks {
+    left: 0;
+  }
+  .createPost_vote {
+    width: 87%;
+    padding-left: 31px;
+  }
+  .createPost_batchHead{
+    font-size: 16px;
+  }
+  .createPost_fillCompany
+  {
+    gap: 0px;
+  }
+
+  .createPost_headSection {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 14px;
+    margin-bottom: 43px;
+  }
+  .createPost_templatehead {
+    left: 16px;
+  }
+  .createPost_template_cont {
+    width: 96%;
+    height: 90vh;
+  }
+  .createPost_template_submain {
+    width: 95%;
+  }
+  .createPost_template_intro {
+    height: 125px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .createPost_template_introDesc {
+    color: grey;
+    letter-spacing: 1px;
+    font-style: italic;
+    height: 100%;
+    display: flex;
+    position: relative;
+    top: 25px;
+    width: 54%;
+  }
+  .createPost_template_roundsMen {
+    height: 118%;
+    width: 92%;
+    color: grey;
+    letter-spacing: 1px;
+    font-style: italic;
+  }
+  .createPost_template_heading {
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    letter-spacing: 1px;
+    width: 90%;
+  }
+  .createPost_template_tip {
+    height: 57px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .createPost_template_tiphead {
+    width: 19%;
+    color: white;
+    letter-spacing: 1px;
+  }
+  .createPost_template_tipContent {
+    width: 71%;
+    color: grey;
+    font-style: italic;
+    letter-spacing: 1px;
+  }
+  .createPost_template_imphead {
+    width: 92%;
+    /* height: 100%; */
+    color: white;
+    letter-spacing: 1px;
+  }
+  .deptSelect
+  {
+    margin-left: 0px;
+  }
+  .batchSelect
+  {
+    margin-left: 48px;
+  }
+  .createPost_linkedInLink
+  {
+    width: 85%;
+    height: 80px;
+  }
+  .createPost_error_cont{
+    width: 97%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

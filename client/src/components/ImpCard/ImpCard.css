@@ -1,0 +1,16 @@
+.ImpContainer {
+  height: 28px;
+  min-width: 100px;
+  background-color: rgb(31 36 40 0.5);
+  color: rgb(48, 207, 255);
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgb(24, 24, 24);
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid rgb(53, 53, 53);
+  
+}

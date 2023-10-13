@@ -1,0 +1,111 @@
+.navContainer{
+    height: 70px;
+    width: 100%;
+    background-color: #0D1117;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 6px;
+    color: white;
+    text-decoration: none;
+}
+#main-logo{
+    margin-left: 40px;
+}
+.profilepic{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#profileImg{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 2px solid grey;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    float: left;
+    gap: 35px;
+    position: absolute;
+    left: 69%;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.ProjectPart{
+    background-color: transparent;
+    border : none;
+}
+.projectPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}
+.myPosts{
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+}
+
+@media (max-width : 500px)
+{
+    #helper-icons{
+        height: 23px;
+        width: 23px;
+    }
+    .icons {
+        display: flex;
+        flex-direction: row;
+        float: right;
+        float: left;
+        gap: 8px;
+        position: absolute;
+        left: 39%;
+        height: 35px;
+        top: 4px;
+        justify-content: center;
+        align-items: center;
+    }
+    .navContainer{
+        height: 55px;
+    }
+    #profileImg {
+        height: 39px;
+        width: 39px;
+    }
+    .profilepic{
+        position: absolute;
+        right: -4px;
+    }
+    .logo{
+        font-size: 20px;
+    margin-left: -20px;
+
+    }
+    #main-logo{
+        height: 25px;
+        width: 25px;
+        left: -25px;
+        position: relative;
+        top: 0px;
+    }
+    
+}

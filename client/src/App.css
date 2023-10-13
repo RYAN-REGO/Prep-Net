@@ -1,0 +1,37 @@
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #0D1117;
+}
+/* global-styles.css */
+
+/* Scrollbar for body */
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  background: #0D1117;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #161B22;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media (max-width : 600px)
+{
+  body::-webkit-scrollbar {
+    display: none;
+
+  }
+}

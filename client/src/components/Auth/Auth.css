@@ -1,0 +1,256 @@
+.auth_mainContainer {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#new_verify_alert
+{
+  position: relative;
+  top: 20px;
+  width: 38%;
+  color: rgb(224, 224, 224);
+}
+.sign {
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: flex;
+  text-align: center;
+  height: 36px;
+  width: 83px;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d232c;
+  border: 1px solid rgb(20, 20, 20);
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px #1a2029;
+}
+.sign:hover {
+  background-color: #161b22;
+  box-shadow: 2px 2px 1px rgb(12, 16, 20);
+  color: grey;
+}
+.Signin {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.auth_heading {
+  height: 18%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+#auth_subHeading {
+  font-size: 20px;
+  font-weight: 400;
+}
+.auth_headText {
+  background: linear-gradient(90deg, #ff4d00, #a500f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.auth_container {
+  height: 69%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auth_subContainer {
+  width: 42%;
+  height: 95%;
+  border: 1px solid #ff4d00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.authName {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 15px;
+}
+.auth_name {
+  height: 35px;
+  width: 170px;
+  background-color: transparent;
+  border: 1px solid grey;
+  letter-spacing: 1px;
+  /* font-style: italic; */
+  color: white;
+  padding-left: 10px;
+  font-size: 14px;
+}
+.authEmail {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.auth_email {
+  height: 35px;
+  width: 390px;
+  background-color: transparent;
+  border: 1px solid grey;
+  letter-spacing: 1px;
+  /* font-style: italic; */
+  color: white;
+  padding-left: 10px;
+  font-size: 14px;
+}
+.authPass {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auth_pass {
+  height: 35px;
+  width: 390px;
+  background-color: transparent;
+  border: 1px solid grey;
+  letter-spacing: 1px;
+  /* font-style: italic; */
+  color: white;
+  padding-left: 10px;
+  font-size: 14px;
+  position: relative;
+  left: 15px;
+}
+.auth_SubmitOptions {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.auth_googleOpt {
+  width: 183px;
+  height: 50px;
+  background-color: #28303a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border: none;
+  border-bottom: 1px solid grey;
+  font-weight: 500;
+}
+
+.auth_googleOpt:hover {
+  background-color: #222a33;
+  border-bottom: 4px solid grey;
+}
+.auth_formSubmit {
+  width: 193px;
+  height: 50px;
+  background-color: #161b22;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border: none;
+  border-bottom: 1px solid grey;
+  
+}
+.auth_formSubmit:hover {
+  background-color: #222a33;
+  border-bottom: 4px solid grey;
+}
+.auth_comment {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auth_switchComment {
+  background-color: transparent;
+  border: none;
+  color: grey;
+  font-size: 14px;
+  letter-spacing: 1px;
+  position: relative;
+  left: 85px;
+}
+.auth_switchComment:hover {
+  color: rgb(172, 172, 172);
+}
+.authPass_view{
+  background-color: none;
+  border: none;
+  background: transparent;
+  position: relative;
+  left: -20px;
+}
+
+@media (max-width: 550px) {
+  .auth_subContainer {
+    width: 98%;
+  }
+  .auth_heading{
+    font-size: 27px;
+  }
+  .authName {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 15px;
+  }
+  .auth_name {
+    height: 35px;
+    width: 130px;
+    background-color: transparent;
+    border: 1px solid grey;
+    letter-spacing: 1px;
+    color: white;
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  .auth_email {
+    width: 302px;
+  }
+  .auth_pass {
+    width: 302px;
+  }
+  .auth_SubmitOptions {
+    gap: 25px;
+  }
+  .auth_googleOpt {
+    width: 145px;
+  }
+  .auth_formSubmit {
+    width: 145px;
+  }
+  .auth_switchComment{
+    left: 39px;
+  }
+  #new_verify_alert{
+    width: 90%;
+  }
+}

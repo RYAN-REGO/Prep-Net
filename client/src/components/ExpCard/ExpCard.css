@@ -1,0 +1,339 @@
+.expCard_maincont {
+  min-height: 205vh;
+  width: 75%;
+  background-color: #161b22;
+  margin-top: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(8, 8, 8);
+  margin-bottom: 20px;
+  border:  1px solid rgb(43, 43, 43);
+}
+.expCard_headDesc {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+  color: #aefaff;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+.expCard_intro {
+  width: 100%;
+  min-height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: justify;
+}
+.expCard_introDuce {
+  height: 32px;
+  width: 80%;
+  color: rgb(240, 240, 240);
+  letter-spacing: 2px;
+  font-family: "Gabarito", sans-serif;
+
+  color: #D0DFFF;
+  font-size: 16px;
+  font-weight: 550;
+}
+.expCard_introInput {
+  min-height: 100px;
+  width: 80%;
+  color: rgb(163, 163, 163);
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.expCard_round {
+  min-height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.expCard_roundHead {
+  height: 32px;
+  width: 80%;
+  color: rgb(240, 240, 240);
+  letter-spacing: 2px;
+  font-family: "Gabarito", sans-serif;
+
+  color: #D0DFFF;
+  font-size: 16px;
+  font-weight: 550;
+}
+.expCard_roundInput {
+  min-height: 100px;
+  width: 80%;
+  color: rgb(163, 163, 163);
+  letter-spacing: 1px;
+  line-height: 25px;
+  overflow: auto;
+}
+.expCard_roundDesc {
+  min-height: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.loading {
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 500;
+  position: absolute;
+  top: 10px;
+}
+.expCard_rndDescHead {
+  height: 32px;
+  width: 80%;
+  color: rgb(240, 240, 240);
+  letter-spacing: 2px;
+  font-family: "Gabarito", sans-serif;
+  color: #D0DFFF;
+  font-size: 16px;
+  font-weight: 550;
+}
+.expCard_rndDescContent {
+  height: 280px;
+  width: 80%;
+  color: rgb(163, 163, 163);
+  letter-spacing: 1px;
+  line-height: 25px;
+  overflow: auto;
+  border-top: 1px solid rgb(80, 80, 80);
+  border-bottom: 1px solid rgb(80, 80, 80);
+  text-align: justify;
+}
+.expCard_rndDescContent::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+.expCard_rndDescContent::-webkit-scrollbar-track {
+  background: #131313;
+}
+
+/* Handle */
+.expCard_rndDescContent::-webkit-scrollbar-thumb {
+  background: #13171d;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.intExp_grid::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.expCard_tipSection {
+  min-height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.expCard_tipHead {
+  height: 32px;
+  width: 80%;
+  color: rgb(240, 240, 240);
+  letter-spacing: 2px;
+  font-family: "Gabarito", sans-serif;
+  color: #D0DFFF;
+  font-size: 16px;
+  font-weight: 550;
+}
+.expCard_tipContent {
+  min-height: 30px;
+  width: 80%;
+  color: rgb(163, 163, 163);
+  letter-spacing: 1px;
+  line-height: 25px;
+  text-align: justify;
+}
+.expCard_impSection {
+  min-height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.expCard_impHead {
+  height: 32px;
+  width: 80%;
+  color: rgb(240, 240, 240);
+  letter-spacing: 2px;
+  font-family: "Gabarito", sans-serif;
+  color: #D0DFFF;
+  font-size: 16px;
+  font-weight: 550;
+}
+.expCard_impContent {
+  min-height: 30px;
+  width: 80%;
+  color: rgb(163, 163, 163);
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin-top: 20px;
+  border-top: 1px solid rgb(75, 75, 75);
+  border-bottom: 1px solid rgb(75, 75, 75);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.expCard_impContent_grid {
+  min-height: 85px;
+  max-height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow: auto;
+}
+.expCard_impContent_grid::-webkit-scrollbar {
+  width: 7px;
+}
+/* Track */
+.expCard_impContent_grid::-webkit-scrollbar-track {
+  background: #131313;
+}
+/* Handle */
+.expCard_impContent_grid::-webkit-scrollbar-thumb {
+  background: #13171d;
+  border-radius: 5px;
+}
+/* Handle on hover */
+.expCard_impContent_grid::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.expCard_linkedin {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.expCard_linkedinHead {
+  color: #D0DFFF;
+  letter-spacing: 1px;
+  width: 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.expCard_linkedinLink {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.linkedInLink {
+  min-width: 40%;
+  height: 80%;
+  background-color: transparent;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3px;
+  color: rgb(0, 132, 255);
+}
+.linkedInLink:hover {
+  color: white;
+}
+
+
+@media (max-width: 550px) {
+  .expCard_maincont {
+    width: 95%;
+    min-height: 220vh;
+    margin-bottom: 55px;
+    overflow: auto;
+  }
+  .expCard_maincont::-webkit-scrollbar {
+    width: 2px;
+  }
+  /* Track */
+  .expCard_maincont::-webkit-scrollbar-track {
+    background: #131313;
+  }
+  /* Handle */
+  .expCard_maincont::-webkit-scrollbar-thumb {
+    background: #13171d;
+    border-radius: 5px;
+  }
+  /* Handle on hover */
+  .expCard_maincont::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .expCard_headDesc {
+    height: 90px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  .expCard_introDuce {
+    width: 90%;
+  }
+  .expCard_introInput {
+    width: 90%;
+  }
+  .expCard_roundHead {
+    width: 90%;
+  }
+  .expCard_roundInput {
+    width: 90%;
+  }
+  .expCard_rndDescHead {
+    width: 90%;
+  }
+  .expCard_rndDescContent {
+    width: 95%;
+  }
+  .expCard_tipHead {
+    width: 90%;
+  }
+  .expCard_tipContent {
+    width: 90%;
+  }
+  .expCard_impHead {
+    width: 90%;
+  }
+  .expCard_impContent {
+    width: 90%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: none;
+    padding-bottom: 20px;
+  }
+  .expCard_impContent_grid {
+    width: 100%;
+    gap: 10px;
+    margin-top: 5px;
+    border-top: 1px solid rgb(62, 62, 62);
+    border-bottom: 1px solid rgb(62, 62, 62);
+    max-height: 222px;
+  }
+  .expCard_linkedinHead{
+    width: 41%;
+    position: relative;
+    left: -7px;
+  }
+}

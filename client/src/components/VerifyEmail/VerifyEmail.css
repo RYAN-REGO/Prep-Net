@@ -1,0 +1,96 @@
+.verify_greatContainer
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.verify_header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    top: -50px;
+}
+.verify_head
+{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 29px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.verify_tip{
+    width: 40%;
+    color: rgb(165, 165, 165);
+    font-size: 19px;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+}
+.verify_alert
+{
+    width: 39%;
+    border: 1px solid rgb(158, 0, 0);
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: rgb(235, 235, 235);
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+svg{
+    position: relative;
+    top: 5px;
+}
+
+.verify_submit{
+    width: 40%;
+    height: 40px;
+    background-color: grey;
+    color: black;
+    font-weight: 500;
+    border: 1px solid rgb(70, 70, 70);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    top: 50px;
+    cursor: pointer;
+    box-shadow: 3px 3px 2px #161b22;
+}
+
+@media (max-width : 600px)
+{
+    .verify_head{
+        font-size: 25px;
+    }
+    .verify_tip{
+        width: 82%;
+        font-size: 15px;
+    }
+    .verify_alert{
+        width: 78%;
+        font-size: 15px;
+    }
+
+}
+#verify_spam_alert{
+    position: relative;
+    top: 90px;
+    text-align: center;
+}
+@media (max-width : 370px)
+{
+    .verify_alert
+    {
+        width: 83%;
+    }
+}

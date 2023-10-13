@@ -1,0 +1,10 @@
+backend packages
+
+body-parser -- for sending post requests
+cors -- for making cross origin requests
+express -- routing of the application
+mongoose -- to create models for our posts
+nodemon -- prevents from manual restarting of the server
+
+here instead of ---const express = require('express')--- we are using ---import express from 'express'---
+so in package.json add ---"type" : "module"---

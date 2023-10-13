@@ -1,0 +1,106 @@
+.footContainer{
+    height: 280px;
+    width: 100%;
+    background-color: #0D1117;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #636363;
+}
+.quote{
+    width: 70%;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 55px;
+    font-family: "Italianno", cursive;
+    font-weight: 550;
+    color: #AEFAFF;
+    position: relative;
+    top: 28px;
+
+}
+.qname{
+    font-size: 30px;
+  /* padding: 20px 0; */
+  font-family: "Italianno", cursive;
+  letter-spacing: 2px;
+  color: #14213D;
+  /* margin-top: 10px; */
+  position: relative;
+    top: 50px;
+    color: white;
+    font-weight: 550;
+}
+.quote_text{
+    background: linear-gradient(90deg, rgb(0, 102, 255), rgb(255, 64, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.signature{
+    height: 45px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: -59px;
+    background-color: #0D1117;
+    background-color: #0d1014;
+    color: white;
+    border-top: 1px solid #636363;
+}
+.contact
+{
+    color: white;
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.mysign{
+    color: #fff;
+    padding-right: 30px;
+    /* font-style: italic; */
+    letter-spacing: 1px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+@media (max-width : 385px) {
+    .footContainer{
+        height: 426px;
+    width: 100%;
+    }
+    .quote{
+        width: 92%;
+        font-size: 39px;
+        letter-spacing: 2px;
+    }
+    .qname{
+        font-size: 25px;
+    }
+}
+@media (min-width : 386px) and (max-width : 700px)
+{
+    .footContainer{
+        height: 388px;
+        width: 100%;
+    }
+    .quote{
+        width: 92%;
+        font-size: 39px;
+        letter-spacing: 2px;
+        top: 30px;
+    }
+    .qname{
+        font-size: 25px;
+    }
+}
