@@ -11,7 +11,7 @@ import "./Auth.css";
 import { toast } from "react-hot-toast";
 
 const clientId =
-  "450368446823-4olpovqluia1n8tk9agsbse9egb02e01.apps.googleusercontent.com";
+  "Enter you Client ID";
 
 const initialState = { firstName: "", lastName: "", email: "", password: "" };
 

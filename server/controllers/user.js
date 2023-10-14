@@ -21,6 +21,7 @@ export const signin = async (req, res) => {
         });
     }
 
+    //check if the password is correct
     const isPasswordCorrect = await bcrypt.compare(
       password,
       existingUser.password
@@ -60,8 +61,8 @@ export const signup = async (req, res) => {
   const { firstName, lastName, email, password , otp} = req.body;
 
   try {
+    //check if the user already exists
     const existingUser = await proUser.findOne({ email });
-
 
     if(existingUser)
     {
@@ -71,6 +72,8 @@ export const signup = async (req, res) => {
       })
     }
 
+    //if it is a new user
+    //find the otp relating to entered email in the database i.e the latest one
     const response = await userotp.find({ email }).sort({ createdAt: -1 }).limit(1);
     console.log(response);
     if(response.length === 0)
@@ -88,6 +91,7 @@ export const signup = async (req, res) => {
       })
     }
 
+    //if the enetered otp is correct hash password and create a user
     const hashedPassword = await bcrypt.hash(password, 12);
 
     const result = await proUser.create({
@@ -131,9 +135,11 @@ export const sendotp = async (req, res) => {
       lowerCaseAlphabets: false,
       specialChars: false,
     });
-    //check if the result is already in use
+
+    //check if the otp is already in use
     const result = await userotp.findOne({ otp });
-    //untill we get a non used otp keep generating
+    
+    //keep generating an otp untill it is the unique one
     while (result) {
       otp = otpGenerator.generate(4, {
         upperCaseAlphabets: false,
