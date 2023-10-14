@@ -21,7 +21,7 @@ app.use('/posts', postRoutes);
 app.use('/user', userRoutes);
 app.use('/noti', notiRoutes);
 
-const CONNECTION_URL = 'mongodb+srv://ryanFullStackDev:RyanProject123@cluster0.1scurf4.mongodb.net/?retryWrites=true&w=majority';
+const CONNECTION_URL = process.env.MONGODB_URL;
 const PORT = process.env.port || 5000;
 
 mongoose.connect(CONNECTION_URL, {useNewUrlParser : true, useUnifiedTopology : true} )
